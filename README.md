@@ -16,7 +16,6 @@ The data model is not yet completely finalized.  There are several issues left t
 
 * l2Data field, a sub object with several fields... what are they?
 * Age-appropriate rating/restriction field of some sort
-* 
 
 # General Resource Object Structure #
 
@@ -45,10 +44,10 @@ These are the base fields associated with all resources at the top level.  Some 
 * **copyright**: string with copyright information
 * **license**: string with license information
 * **origin**: See [origin](#origin) subheading; an object describing information about the origin of the resource
-* **client**: See *client* subheading; an object describing information about the contributer of the object to the library
-* **l2Data**: See *l2Data* subheading; an object describing linguistically relevant metadata
-* `content`: See *content* subheading; an object describing how to access the actual resource data
-* **relations**: See *relations* subheading; an array of relation objects
+* **client**: See [client](#client) subheading; an object describing information about the contributer of the object to the library
+* **l2Data**: See [l2Data](#l2Data) subheading; an object describing linguistically relevant metadata
+* `content`: See [content](#content) subheading; an object describing how to access the actual resource data
+* **relations**: See [relations](#relations) subheading; an array of relation objects
 
 ### [origin] ###
 
@@ -61,7 +60,7 @@ This object is optional, but can be used by a client to describe information abo
 * **note**: a string text note
 * **uri**: a properly formatted string URI, consumable by a program
 
-### client ###
+### [client] ###
 
 This object describes a client contributer of the Resource Library.  Not all values will be present for all contributing systems.
 
@@ -71,19 +70,19 @@ This object describes a client contributer of the Resource Library.  Not all val
 * **user**: A string reference to a specific user of a client system, if applicable
 * **userUri**: A string URI that references a specific user of a client system, if applicable
 
-### l2Data ###
+### [l2Data] ###
 
 	throw new RuntimeException("THIS NEEDS WORK, WE DON'T KNOW WHAT WE'RE DOING WITH THIS YET, AND IT'S CRITICAL.");
 	
-### content ###
+### [content] ###
 
 This object describes the actual representations of the content, as it can be consumed by a program.  This includes references to files, possibly multiple files of varying type and quality, as well as potentially information about how to embed a resource directly into another document.
 
-* **files**: See *file* subheading; an array of file reference objects
+* **files**: See [file](#file) subheading; an array of file reference objects
 * **oembed**: A JSON object describing embed information, as defined by `http://oembed.com`
 * **canonicalUri**: A string URI reference to a sever with advanced content negotiation capabilities
 
-#### file ####
+#### [file] ####
 
 * **downloadUri**: A string uri for a program to consume in order to download a file
 * **streamUri**: A string reference to a streaming server which will stream the file

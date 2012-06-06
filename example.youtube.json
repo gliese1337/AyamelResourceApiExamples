@@ -1,111 +1,111 @@
 {
-	"response": {
-		"code": 200,
-		"message": "ok"
-	},
-	"resource": {
-		"id": "123456abcde0",
-		"title": "Charlie bit my finger - again !",
-		"description": "Even had I thought of trying to get my boys to do this I probably couldn't have. Neither were coerced into any of this and neither were hurt (for very long anyway). This was just one of those moments when I had the video camera out because the boys were being fun and they provided something really very funny.
+    "response": {
+        "code": 200,
+        "message": "ok"
+    },
+    "resource": {
+        "id": "123456abcde0",
+        "title": "Charlie bit my finger - again !",
+        "description": "Even had I thought of trying to get my boys to do this I probably couldn't have. Neither were coerced into any of this and neither were hurt (for very long anyway). This was just one of those moments when I had the video camera out because the boys were being fun and they provided something really very funny.
 
-	FAQ Harry is 7 1/2, Charlie is 5, Jasper is nearly 3
-	(May 2011)",
-		"keywords": "Charlie bit me, my finger, baby bite, cute babies, funny boys, Harry laughing, most viewed",
-		"categories": ["Comedy"],
-		"type": "video",
-		"public": true,
-		"dateAdded": "2012-12-25 10:00:00 EST",
-		"dateModified": "2012-12-25 10:00:00 EST",
-		"copyright": "All rights reserved",
-		"license": "Standard YouTube License",
-		"status": "ok",
-		"origin":  {
-			"creator": "HDCYT",
-			"location": "http://www.youtube.com",
-			"date": "May 22, 2007",
-			"format": "digital video",
-			"uri": "http://www.youtube.com/watch?v=_OBlgSz8sSM"
-		},
-		"client": {
-			"id": "fship_media_app",
-			"name": "Flagship Media Library",
-			"uri": "http://media.flagship.org",
-			"user": "jsmith",
-			"userUri": "http://media.flagship.org/users/jsmith"
-		},
-		"l2Data": {},
-		"content": {
-			"files": [
-				{
-					"downloadUri": "youtube://_OBlgSz8sSM",
-					"mime": "application/octet-stream",
-					"representation": "original;0"
-				},
-				{
-					"downloadUri": "http://www.youtube.com/v/_OBlgSz8sSM?version=3&amp;f=videos&amp;app=youtube_gdata",
-					"mime": "application/x-shockwave-flash",
-					"representation": "original;1",
-					"attributes": {
-						"duration": 56
-					}
-				},
-				{
-					"downloadUri": "http://www.youtube.com/watch?v=_OBlgSz8sSM",
-					"mime": "text/html",
-					"representation": "original;2"
-				},
-				{
-					"downloadUri": "http://i.ytimg.com/vi/_OBlgSz8sSM/0.jpg",
-					"mime": "image/jpg",
-					"representation": "summary;2",
-					"attributes": {
-						"bytes": 156,
-						"frameSize": {"width":360,"height":480},
-						"time": "00:00:28"
-					}
-				},
-				{
-					"downloadUri": "http://i.ytimg.com/vi/_OBlgSz8sSM/2.jpg",
-					"mime": "image/jpg",
-					"representation": "summary;1",
-					"attributes": {
-						"bytes": 156,
-						"frameSize": {"width":120,"height":90},
-						"time": "00:00:28"
-					}
-				},
-				{
-					"streamUri": "rtsp://v6.cache3.c.youtube.com/CiILENy73wIaGQkjsfwsgWXg_BMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp",
-					"mime": "video/3gpp",
-					"representation": "transcoding;1",
-					"attributes": {
-						"duration": 56
-					}
-				},
-				{
-					"streamUri": "rtsp://v2.cache1.c.youtube.com/CiILENy73wIaGQkjsfwsgWXg_BMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp",
-					"mime": "video/3gpp",
-					"representation": "transcoding;2",
-					"attributes": {
-						"duration": 56
-					}
-				}
-			],
-			"oembed": {
-				"provider_url": "http:\/\/www.youtube.com\/", 
-				"thumbnail_url": "http:\/\/i4.ytimg.com\/vi\/_OBlgSz8sSM\/hqdefault.jpg", 
-				"title": "Charlie bit my finger - again !", 
-				"html": "\u003ciframe width=\"459\" height=\"344\" src=\"http:\/\/www.youtube.com\/embed\/_OBlgSz8sSM?fs=1\u0026feature=oembed\" frameborder=\"0\" allowfullscreen\u003e\u003c\/iframe\u003e", 
-				"author_name": "HDCYT", 
-				"height": 344, 
-				"thumbnail_width": 480, 
-				"width": 459, 
-				"version": "1.0", 
-				"author_url": "http:\/\/www.youtube.com\/user\/HDCYT", 
-				"provider_name": "YouTube", 
-				"type": "video", 
-				"thumbnail_height": 360
-			}
-		}
-	}
+    FAQ Harry is 7 1/2, Charlie is 5, Jasper is nearly 3
+    (May 2011)",
+        "keywords": "Charlie bit me, my finger, baby bite, cute babies, funny boys, Harry laughing, most viewed",
+        "categories": ["Comedy"],
+        "type": "video",
+        "public": true,
+        "dateAdded": "2012-12-25 10:00:00 EST",
+        "dateModified": "2012-12-25 10:00:00 EST",
+        "copyright": "All rights reserved",
+        "license": "Standard YouTube License",
+        "status": "ok",
+        "origin":  {
+            "creator": "HDCYT",
+            "location": "http://www.youtube.com",
+            "date": "May 22, 2007",
+            "format": "digital video",
+            "uri": "http://www.youtube.com/watch?v=_OBlgSz8sSM"
+        },
+        "client": {
+            "id": "fship_media_app",
+            "name": "Flagship Media Library",
+            "uri": "http://media.flagship.org",
+            "user": "jsmith",
+            "userUri": "http://media.flagship.org/users/jsmith"
+        },
+        "l2Data": {},
+        "content": {
+            "files": [
+                {
+                    "downloadUri": "youtube://_OBlgSz8sSM",
+                    "mime": "application/octet-stream",
+                    "representation": "original;0"
+                },
+                {
+                    "downloadUri": "http://www.youtube.com/v/_OBlgSz8sSM?version=3&amp;f=videos&amp;app=youtube_gdata",
+                    "mime": "application/x-shockwave-flash",
+                    "representation": "original;1",
+                    "attributes": {
+                        "duration": 56
+                    }
+                },
+                {
+                    "downloadUri": "http://www.youtube.com/watch?v=_OBlgSz8sSM",
+                    "mime": "text/html",
+                    "representation": "original;2"
+                },
+                {
+                    "downloadUri": "http://i.ytimg.com/vi/_OBlgSz8sSM/0.jpg",
+                    "mime": "image/jpg",
+                    "representation": "summary;2",
+                    "attributes": {
+                        "bytes": 156,
+                        "frameSize": {"width":360,"height":480},
+                        "time": "00:00:28"
+                    }
+                },
+                {
+                    "downloadUri": "http://i.ytimg.com/vi/_OBlgSz8sSM/2.jpg",
+                    "mime": "image/jpg",
+                    "representation": "summary;1",
+                    "attributes": {
+                        "bytes": 156,
+                        "frameSize": {"width":120,"height":90},
+                        "time": "00:00:28"
+                    }
+                },
+                {
+                    "streamUri": "rtsp://v6.cache3.c.youtube.com/CiILENy73wIaGQkjsfwsgWXg_BMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp",
+                    "mime": "video/3gpp",
+                    "representation": "transcoding;1",
+                    "attributes": {
+                        "duration": 56
+                    }
+                },
+                {
+                    "streamUri": "rtsp://v2.cache1.c.youtube.com/CiILENy73wIaGQkjsfwsgWXg_BMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp",
+                    "mime": "video/3gpp",
+                    "representation": "transcoding;2",
+                    "attributes": {
+                        "duration": 56
+                    }
+                }
+            ],
+            "oembed": {
+                "provider_url": "http:\/\/www.youtube.com\/", 
+                "thumbnail_url": "http:\/\/i4.ytimg.com\/vi\/_OBlgSz8sSM\/hqdefault.jpg", 
+                "title": "Charlie bit my finger - again !", 
+                "html": "\u003ciframe width=\"459\" height=\"344\" src=\"http:\/\/www.youtube.com\/embed\/_OBlgSz8sSM?fs=1\u0026feature=oembed\" frameborder=\"0\" allowfullscreen\u003e\u003c\/iframe\u003e", 
+                "author_name": "HDCYT", 
+                "height": 344, 
+                "thumbnail_width": 480, 
+                "width": 459, 
+                "version": "1.0", 
+                "author_url": "http:\/\/www.youtube.com\/user\/HDCYT", 
+                "provider_name": "YouTube", 
+                "type": "video", 
+                "thumbnail_height": 360
+            }
+        }
+    }
 }

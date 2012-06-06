@@ -1,93 +1,93 @@
 {
-	"id": "123456abcdef",
-	"title": "Seeing Lenin",
-	"description": "In 1987 I got to visit Red Square, I saw Lenin's tomb, it was eery.",
-	"keywords": "Lenin, Moscow, Red Square",
-	"categories": ["Culture", "Politics"],
-	"type": "video",
-	"public": true,
-	"dateAdded": "2012-12-25 10:00:00 EST",
-	"dateModified": "2012-12-25 10:00:00 EST",
-	"copyright": "All rights reversed",
-	"license": "Creative Commons",
-	"status": "ok",
-	"origin":  {
-		"creator": "John Smith",
-		"location": "Moscow, Russia",
-		"date": "September, 1987",
-		"format": "digital video, encoded from VHS cassette"
-	},
-	"client": {
-		"id": "fship_media_app",
-		"name": "Flagship Media Library",
-		"uri": "http://media.flagship.org",
-		"user": "jsmith",
-		"userUri": "http://media.flagship.org/users/jsmith"
-	},
-	"l2Data": {},
-	"content": {
-		"files": [
-			{
-				"downloadUri": "http://storage.ayamel.org/3456_25659873404389_original.wmv",
-				"streamUri": "rtmp://streaming.ayamel.org/3456_25659873404389_original",
-				"mime": "video/x-ms-wmv",
-				"representation": "original;1",
-				"attributes": {
-					"bytes": 14658,
-					"duration": 300,
-					"frameSize": {"width":720,"height":480},
-					"frameRate": 48,
-					"averageBitRate": 44000,
-				}
-			},
-			{
-				"downloadUri": "http://storage.ayamel.org/3456_25659873404389_thumb.jpg",
-				"mime": "image/jpg",
-				"representation": "summary;1",
-				"attributes": {
-					"bytes": 156,
-					"frameSize": {"width":720,"height":480}
-				}
-			},
-			{
-				"downloadUri": "http://storage.ayamel.org/3456_25659873404389_high.mp4",
-				"streamUri": "rtmp://streaming.ayamel.org/3456_25659873404389_high",
-				"mime": "video/mp4",
-				"representation": "transcoding;1",
-				"attributes": {
-					"bytes": 10280,
-					"duration": 300,
-					"frameSize": {"width":720,"height":480},
-					"frameRate": 24,
-				}
-			},
-			{
-				"downloadUri": "http://storage.ayamel.org/3456_25659873404389_low.mp4",
-				"streamUri": "rtmp://streaming.ayamel.org/3456_25659873404389_low",
-				"mime": "video/mp4",
-				"representation": "transcoding;0",
-				"attributes": {
-					"bytes": 3500,
-					"duration": 300,
-					"frameSize": {"width":360,"height":240},
-					"frameRate": 24,
-				}
-			}
-		]
-	},
-	"relations": [
-		{
-			"subjectId": "123456abcdef",
-			"objectId": "123456abcdeh",
-			"type": "PartOf",
-			"attributes": {
-				"index": 4,
-			}
-		},
-		{
-			"subjectId": "123456abcdef",
-			"objectId": "123456abcdeg",
-			"type": "Transcript"
-		}
-	]
+    "id": "123456abcdef",
+    "title": "Seeing Lenin",
+    "description": "In 1987 I got to visit Red Square, I saw Lenin's tomb, it was eery.",
+    "keywords": "Lenin, Moscow, Red Square",
+    "categories": ["Culture", "Politics"],
+    "type": "video",
+    "public": true,
+    "dateAdded": "2012-12-25 10:00:00 EST",
+    "dateModified": "2012-12-25 10:00:00 EST",
+    "copyright": "All rights reversed",
+    "license": "Creative Commons",
+    "status": "ok",
+    "origin":  {
+        "creator": "John Smith",
+        "location": "Moscow, Russia",
+        "date": "September, 1987",
+        "format": "digital video, encoded from VHS cassette"
+    },
+    "client": {
+        "id": "fship_media_app",
+        "name": "Flagship Media Library",
+        "uri": "http://media.flagship.org",
+        "user": "jsmith",
+        "userUri": "http://media.flagship.org/users/jsmith"
+    },
+    "l2Data": {},
+    "content": {
+        "files": [
+            {
+                "downloadUri": "http://storage.ayamel.org/3456_25659873404389_original.wmv",
+                "streamUri": "rtmp://streaming.ayamel.org/3456_25659873404389_original",
+                "mime": "video/x-ms-wmv",
+                "representation": "original;1",
+                "attributes": {
+                    "bytes": 14658,
+                    "duration": 300,
+                    "frameSize": {"width":720,"height":480},
+                    "frameRate": 48,
+                    "averageBitRate": 44000,
+                }
+            },
+            {
+                "downloadUri": "http://storage.ayamel.org/3456_25659873404389_thumb.jpg",
+                "mime": "image/jpg",
+                "representation": "summary;1",
+                "attributes": {
+                    "bytes": 156,
+                    "frameSize": {"width":720,"height":480}
+                }
+            },
+            {
+                "downloadUri": "http://storage.ayamel.org/3456_25659873404389_high.mp4",
+                "streamUri": "rtmp://streaming.ayamel.org/3456_25659873404389_high",
+                "mime": "video/mp4",
+                "representation": "transcoding;1",
+                "attributes": {
+                    "bytes": 10280,
+                    "duration": 300,
+                    "frameSize": {"width":720,"height":480},
+                    "frameRate": 24,
+                }
+            },
+            {
+                "downloadUri": "http://storage.ayamel.org/3456_25659873404389_low.mp4",
+                "streamUri": "rtmp://streaming.ayamel.org/3456_25659873404389_low",
+                "mime": "video/mp4",
+                "representation": "transcoding;0",
+                "attributes": {
+                    "bytes": 3500,
+                    "duration": 300,
+                    "frameSize": {"width":360,"height":240},
+                    "frameRate": 24,
+                }
+            }
+        ]
+    },
+    "relations": [
+        {
+            "subjectId": "123456abcdef",
+            "objectId": "123456abcdeh",
+            "type": "PartOf",
+            "attributes": {
+                "index": 4,
+            }
+        },
+        {
+            "subjectId": "123456abcdef",
+            "objectId": "123456abcdeg",
+            "type": "Transcript"
+        }
+    ]
 }
