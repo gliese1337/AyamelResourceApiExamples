@@ -1,6 +1,6 @@
 # Resource Examples README #
 
-The documents contained in this directory are example JSON resoponses to queries to the Ayamel Resource Library API.  Specific examples are given for commonly used resource types, such as uploaded video files and references to Youtube videos.  For documentation on the API for consuming and manipulating resource objects, refer to the online documentation at [http://ayamel.americancouncils.org/index.php](http://ayamel.americancouncils.org/index.php).
+The documents contained in this directory are example JSON resoponses to queries to the Ayamel Resource Library API.  Specific examples are given for commonly used resource types, such as uploaded video files and references to Youtube videos.  For documentation on the API for consuming and manipulating resource objects, refer to the online documentation at [http://ayamel.americancouncils.org/](http://ayamel.americancouncils.org/).
 
 For the online working version of the documents contained in this repository, visit [http://ayamel.americancouncils.org/examples/](http://ayamel.americancouncils.org/examples/).
 
