@@ -32,9 +32,15 @@ These are the base fields associated with all resources at the top level.  Some 
 * **description**: a short human-readable description of the resource
 * **keywords**: a string of keyword entries as entered by a user or another application
 * **categories**: an array of category labels
-* **type**: a generic label for the type of resource that was uploaded, corresponding with the primary representation type (video, audio, image, document, timed text, playlist, etc); needed for transcoding and search purposes
+* **type**: a string label for the generic type of resource that was uploaded, corresponding with the primary representation type (video, audio, image, document, timed text, playlist, etc); needed for transcoding and search purposes
 
-        NEEDS WORK, WHAT ARE THE POSSIBLE VALUES?
+        NEEDS WORK; Currently proposed values:
+        * Video  
+        * Image  
+        * Audio  
+        * Text  
+        * Annotation  
+        * Document  
 
 * **public**: boolean whether or not the resource is visible to clients other than the one which originally contributed the resource
 * `dateAdded`: Date/Time string: when an object was added into the library
